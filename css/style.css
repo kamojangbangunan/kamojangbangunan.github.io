@@ -114,6 +114,8 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  width : 200px;
+  height: 200px;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +172,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 5px;
+
 }
 
 #hero h1 {
@@ -178,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFE726;
 }
 
 @media (max-width: 768px) {
@@ -213,13 +217,18 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #FFE726;
+  color: #FFE726;
+  
 }
 
 #hero .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
+}
+
+#hero .judul-container{
+  line-height: 1px;
 }
 
 /*--------------------------------------------------------------
