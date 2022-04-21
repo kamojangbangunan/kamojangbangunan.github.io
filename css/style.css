@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 30px;
   border: 2px solid #FFE726;
   color: #FFE726;
-  
+  margin: 30px 0 10px 0;
 }
 
 #hero .btn-get-started:hover {
@@ -240,6 +240,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .judul-container{
+  margin: 80px 0 10px 0;
+  /* line-height: 80px; */
 }
 
 /*--------------------------------------------------------------
