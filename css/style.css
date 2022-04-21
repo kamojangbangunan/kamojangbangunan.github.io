@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 
 }
 #hero .back-font-colour h2{
@@ -201,15 +201,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 50px;
-  font-size: 24px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 80px;
+
 }
 
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
   }
 }
 
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 28px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 0px;
   border: 2px solid #FFE726;
   color: #FFE726;
   
@@ -235,7 +236,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .judul-container{
-  line-height: 10px;
 }
 
 /*--------------------------------------------------------------
