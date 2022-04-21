@@ -524,12 +524,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/perkenalan.jpg) center  no-repeat;
+  background-size:contain;
   margin-bottom: 10px;
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 #about .about-container .title {
